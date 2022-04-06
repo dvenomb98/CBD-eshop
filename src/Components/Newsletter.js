@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 function Newsletter() {
 
     const notify = () => toast.success('Thanks you! You sucessfully joined to our newsletter', {
-        position: "top-left",
+        position: "bottom-center",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
