@@ -83,8 +83,8 @@ function Cart({cartItems, removeFromCart, totalCartPrice, setCartItems}) {
         ))}
           <h3 className="font-bold self-end ">Total: {totalCartPrice.toFixed(2)} $</h3>
           <button onClick={() => {placeOlder();notify()}} className={textPlaced ? 
-            "font-bold self-end py-1 px-3 border-2 border-neutral-800 hover:scale-105 transition ease-in-out" : 
-            "font-bold self-end"} >{placeText}</button>
+            "mb-5 font-bold self-end py-1 px-3 border-2 border-neutral-800 hover:scale-105 transition ease-in-out" : 
+            "font-bold self-end mb-5"} >{placeText}</button>
            
             
           
